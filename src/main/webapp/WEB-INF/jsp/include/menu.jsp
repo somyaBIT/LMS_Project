@@ -19,7 +19,7 @@
 </c:if>
 <c:if test="${sessionScope.userId!=null && sessionScope.role == 103}">
    
-    <a href="${url_uhome}">Home</a> | <a href="${url_cform}">Add Contact</a> | <a href="${url_clist}">Contact List</a> | <a href="${url_logout}">Logout</a>  
+    <a href="${url_uhome}">Home</a> | <a href="${url_cform}">Borrow Book</a> | <a href="${url_clist}">Return</a> |<a href="${url_clist}">PayDues</a> | <a href="${url_logout}">Logout</a>  
 </c:if>
 
 
