@@ -1,0 +1,14 @@
+package com.arisglobal.dao;
+
+import java.util.List;
+
+import com.arisglobal.entity.User;
+
+public interface UserDao {
+	void saveUser(User user);
+	List<User> findAllUsers();
+	void deleteUserByID(int id);
+	User findById(int id);
+	void updateUser(User user);
+	 public List<User> findByProperty(String propName, Object propValue);
+}
